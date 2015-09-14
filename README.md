@@ -85,7 +85,7 @@ e.g.
 
 Since both nibbles are the same
 
-102<sub>10</sub> = 66<sub>16</sub>
+102 in denary = 66 in hex
 ```
 
 ### 3.5.3 Units of information
