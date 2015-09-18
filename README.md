@@ -106,12 +106,14 @@ The naming format of units of kilbi are the first 2 letters of the equivalent in
 Unsigned binary is binary without a negative or positive symbol assigned to it. It can have a maximum value of 255 with 8 bits and can hold 256 unique values.
 #### unsigned binary arithmetics
 To add two bytes of unsigned binary together, whenever you have two 1's in the same column carry a 1 and set the bit in that column to be 0:
+```
  10010101
 +01011011
 ---------
  11110000
 ---------
-   11111 
+   11111
+```
 #### signed binary with two's complement
 Signed binary uses one of it's bits to represent a negative or positive symbol.
 With 8 bits it can have a maximum value of 127 and can have 128 unique numbers (not including negatives)
