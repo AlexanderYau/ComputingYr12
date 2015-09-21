@@ -117,7 +117,9 @@ To add two bytes of unsigned binary together, whenever you have two 1's in the s
 #### signed binary with two's complement
 Signed binary uses one of it's bits to represent a negative or positive symbol.
 With 8 bits it can have a maximum value of 127 and can have 128 unique numbers (not including negatives)
+
 #### fixed point form binary representation of numbers with fractional parts
+Fixed point binary uses a decimal point somewhere in the byte and counts numbers normally past the decimal point but before the decimal poin t it counts the fractions in increasingly small fractions (1/2,1/4,1/8) etc. so it becomes impossible to display the exact value of an irrational number like root 3.
 
 ### 3.5.5 Information encoding system
 
@@ -156,6 +158,8 @@ Your data: 01100011
 3.Add the value of each nibble together: 6+3 = 9
 ```
 + Checkdigit
+```
+```
 
 ### 3.5.6 Representing images, sound and other data
 
